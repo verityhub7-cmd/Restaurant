@@ -1,5 +1,5 @@
 /* ============ MENU DATA (shared across pages) ============
-   img fields map to real photos in assets/img/<slug>.jpg
+   img fields map to real photos in img/<slug>.jpg
 ======================================================== */
 const menuData = [
   {
@@ -122,7 +122,7 @@ const galleryPicks = [
   {img:"table", cat:"burgers"},
 ];
 
-function imgUrl(slug){ return `assets/img/${slug}.jpg`; }
+function imgUrl(slug){ return `/img/${slug}.jpg`; }
 
 /* ---- render best sellers (home page) ---- */
 function renderBestSellers(){
